@@ -7,8 +7,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
+	"github.com/liyue201/elastic.v5"
 	"golang.org/x/net/context"
-	"gopkg.in/olivere/elastic.v5"
 )
 
 var (
