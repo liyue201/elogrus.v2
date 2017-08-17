@@ -1,21 +1,16 @@
 package elogrus
 
 import (
+	"fmt"
+	"github.com/liyue201/elastic.v5"
+	"github.com/sirupsen/logrus"
+	"golang.org/x/net/context"
+	"io/ioutil"
 	"log"
 	"net/http"
+	"reflect"
 	"testing"
 	"time"
-
-	"fmt"
-
-	"io/ioutil"
-
-	"github.com/Sirupsen/logrus"
-	"gopkg.in/olivere/elastic.v5"
-
-	"reflect"
-
-	"golang.org/x/net/context"
 )
 
 type Log struct{}
